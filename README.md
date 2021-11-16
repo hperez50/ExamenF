@@ -2,7 +2,7 @@
 
 Buenas noches,
 
-1) El desarrollo del backend se encuentra en el comprimido "prueba.rar", para su desarrollo utilice "spring boot", jpa, api rest y mysql. El proyecto se puede cargar en spring boot y ejecutarlo con  la opción "spring boot app" tambien cargar la base de datos "BD.sql", el servicio se puede consumir y probar el "crud"  utilizando la herramienta "Postman", ya que no alcance a terminar el front. Las siguentes son las url de las entidades:
+1) El desarrollo del backend se encuentra en el comprimido "prueba.rar", para su desarrollo utilice "spring boot", jpa, api rest y mysql. El proyecto se puede cargar en spring boot y ejecutarlo con  la opción "spring boot app" tambien cargar la base de datos "BD.sql" en un gestor de bd que soporte mysql, el servicio se puede consumir y probar el "crud"  utilizando la herramienta "Postman", ya que no alcance a terminar el front. Las siguentes son las url de las entidades:
 
 http://localhost:8080/api/drivers, 
 http://localhost:8080/api/companys, 
