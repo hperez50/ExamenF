@@ -8,7 +8,7 @@ http://localhost:8080/api/drivers,
 http://localhost:8080/api/companys, 
 http://localhost:8080/api/cards
 
-2) En el archvo "Consulta_Mysql_BD.txt" se encuentra resuelta la consulta del punto "1", para su funcionamiento por favor importar la base de datos "BD.sql" que contiene data 
+2) En el archivo "Consulta_Mysql_BD.txt" se encuentra resuelta la consulta del punto "1", para su funcionamiento por favor importar la base de datos "BD.sql" que contiene data 
 en un gestor que soporte mysql y luego proceder a ejecutar la consulta.
 
 Gracias.
