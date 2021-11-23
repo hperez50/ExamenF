@@ -1,7 +1,0 @@
-select v.id_placa as Placa_vehiculo, e.tipo_id_empresa as Tipo_identificacion_empresa, e.id_empresa as Numero_identificacion_empresa, 
-e.nombre_empresa as Nombre_empresa, COUNT(*) AS Cantidad_conductores from mydb.vehiculos as v
-inner join mydb.empresa as e on v.empresa_id_empresa= e.id_empresa
-inner join mydb.conductores as c on v.id_placa= c.vehiculos_id_placa
-GROUP BY c.vehiculos_id_placa
-HAVING COUNT(*) > 1
-ORDER BY c.vehiculos_id_placa asc;
